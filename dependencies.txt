@@ -2,6 +2,5 @@ pandas
 numpy
 datetime
 streamlit
-matplotlib.pyplot
 seaborn
 time
