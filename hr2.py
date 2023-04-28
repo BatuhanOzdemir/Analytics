@@ -248,7 +248,7 @@ plt.legend()
 plt.show()
 
 ###############################
-"""
+
 #Calculate the proportion of team members by position for the Turkish and German teams
 turkey_prop = df_turkey['Position.1'].value_counts(normalize=True).reset_index()
 germany_prop = df_germany['Position.1'].value_counts(normalize=True).reset_index()
@@ -267,7 +267,7 @@ plt.title('Proportion of Team Members by Position for Turkish and German Teams')
 # Add a legend
 plt.legend(['Turkey', 'Germany'])
 plt.show()
-"""
+
 #######################################################
 #streamlit code
 st.header("HR Analysis")
